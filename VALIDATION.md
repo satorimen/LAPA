@@ -20,3 +20,11 @@ Screenshots in `.impeccable/review/`: mobile (390×844), desktop (1440×1000), H
 Not validated: public HTTPS deployment, physical-device installation, Safari/iOS/Android-specific behavior, real backend, real AI, real authentication, WebAuthn, push and background jobs. These services are intentionally absent from this prototype.
 
 The Impeccable context/detection binary was not available; design context was read directly and visual review used actual Chromium screenshots.
+
+## GitHub Pages validation
+
+- `npm run build:pages`: passed, static export generated under `out/` with `/LAPA` prefix.
+- All 5 unit tests passed.
+- All 6 browser scenarios passed against a plain static HTTP server at `/LAPA/`, including first-load offline reload, assets, and the complete local request lifecycle.
+- Source and Pages workflow pushed to `satorimen/LAPA`, branch `main`.
+- Live GitHub Pages deployment not verified: GitHub API access is blocked by the current network policy. Repository Settings → Pages → Source must be set to GitHub Actions to enable the saved workflow.
