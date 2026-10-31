@@ -1,0 +1,322 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-31T20:41:00.640229+00:00",
+  "title": "Design System: LAPA",
+  "extensions": {
+    "source": "src/app/globals.css; primitives are normative in DESIGN.md frontmatter",
+    "colorMeta": {
+      "cream": {
+        "role": "neutral",
+        "displayName": "Warm cream",
+        "canonical": "#fff9ed",
+        "tonalRamp": [
+          "oklch(15% 0.0171 84.59)",
+          "oklch(26% 0.0171 84.59)",
+          "oklch(38% 0.0171 84.59)",
+          "oklch(49% 0.0171 84.59)",
+          "oklch(61% 0.0171 84.59)",
+          "oklch(72% 0.0171 84.59)",
+          "oklch(84% 0.0171 84.59)",
+          "oklch(95% 0.0171 84.59)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#fffdf7",
+        "tonalRamp": [
+          "oklch(15% 0.0082 91.48)",
+          "oklch(26% 0.0082 91.48)",
+          "oklch(38% 0.0082 91.48)",
+          "oklch(49% 0.0082 91.48)",
+          "oklch(61% 0.0082 91.48)",
+          "oklch(72% 0.0082 91.48)",
+          "oklch(84% 0.0082 91.48)",
+          "oklch(95% 0.0082 91.48)"
+        ]
+      },
+      "forest": {
+        "role": "primary",
+        "displayName": "Forest",
+        "canonical": "#103f32",
+        "tonalRamp": [
+          "oklch(15% 0.0554 170.98)",
+          "oklch(26% 0.0554 170.98)",
+          "oklch(38% 0.0554 170.98)",
+          "oklch(49% 0.0554 170.98)",
+          "oklch(61% 0.0554 170.98)",
+          "oklch(72% 0.0554 170.98)",
+          "oklch(84% 0.0554 170.98)",
+          "oklch(95% 0.0554 170.98)"
+        ]
+      },
+      "forest-hover": {
+        "role": "primary",
+        "displayName": "Forest hover",
+        "canonical": "#1e5642",
+        "tonalRamp": [
+          "oklch(15% 0.0680 166.33)",
+          "oklch(26% 0.0680 166.33)",
+          "oklch(38% 0.0680 166.33)",
+          "oklch(49% 0.0680 166.33)",
+          "oklch(61% 0.0680 166.33)",
+          "oklch(72% 0.0680 166.33)",
+          "oklch(84% 0.0680 166.33)",
+          "oklch(95% 0.0680 166.33)"
+        ]
+      },
+      "sage": {
+        "role": "secondary",
+        "displayName": "Sage",
+        "canonical": "#e9eedc",
+        "tonalRamp": [
+          "oklch(15% 0.0244 119.51)",
+          "oklch(26% 0.0244 119.51)",
+          "oklch(38% 0.0244 119.51)",
+          "oklch(49% 0.0244 119.51)",
+          "oklch(61% 0.0244 119.51)",
+          "oklch(72% 0.0244 119.51)",
+          "oklch(84% 0.0244 119.51)",
+          "oklch(95% 0.0244 119.51)"
+        ]
+      },
+      "orange": {
+        "role": "secondary",
+        "displayName": "Orange",
+        "canonical": "#ee7e25",
+        "tonalRamp": [
+          "oklch(15% 0.1660 53.00)",
+          "oklch(26% 0.1660 53.00)",
+          "oklch(38% 0.1660 53.00)",
+          "oklch(49% 0.1660 53.00)",
+          "oklch(61% 0.1660 53.00)",
+          "oklch(72% 0.1660 53.00)",
+          "oklch(84% 0.1660 53.00)",
+          "oklch(95% 0.1660 53.00)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#23372e",
+        "tonalRamp": [
+          "oklch(15% 0.0305 164.79)",
+          "oklch(26% 0.0305 164.79)",
+          "oklch(38% 0.0305 164.79)",
+          "oklch(49% 0.0305 164.79)",
+          "oklch(61% 0.0305 164.79)",
+          "oklch(72% 0.0305 164.79)",
+          "oklch(84% 0.0305 164.79)",
+          "oklch(95% 0.0305 164.79)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "canonical": "#716d60",
+        "tonalRamp": [
+          "oklch(15% 0.0203 92.83)",
+          "oklch(26% 0.0203 92.83)",
+          "oklch(38% 0.0203 92.83)",
+          "oklch(49% 0.0203 92.83)",
+          "oklch(61% 0.0203 92.83)",
+          "oklch(72% 0.0203 92.83)",
+          "oklch(84% 0.0203 92.83)",
+          "oklch(95% 0.0203 92.83)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Warm rule",
+        "canonical": "#e6dfcf",
+        "tonalRamp": [
+          "oklch(15% 0.0227 87.16)",
+          "oklch(26% 0.0227 87.16)",
+          "oklch(38% 0.0227 87.16)",
+          "oklch(49% 0.0227 87.16)",
+          "oklch(61% 0.0227 87.16)",
+          "oklch(72% 0.0227 87.16)",
+          "oklch(84% 0.0227 87.16)",
+          "oklch(95% 0.0227 87.16)"
+        ]
+      },
+      "urgent": {
+        "role": "semantic",
+        "displayName": "Urgent",
+        "canonical": "#ba3e25",
+        "tonalRamp": [
+          "oklch(15% 0.1644 33.27)",
+          "oklch(26% 0.1644 33.27)",
+          "oklch(38% 0.1644 33.27)",
+          "oklch(49% 0.1644 33.27)",
+          "oklch(61% 0.1644 33.27)",
+          "oklch(72% 0.1644 33.27)",
+          "oklch(84% 0.1644 33.27)",
+          "oklch(95% 0.1644 33.27)"
+        ]
+      }
+    },
+    "tonalRampNote": "Tonal ramps are generated display aids in OKLCH, not implemented application tokens. Canonical values match globals.css.",
+    "typographyMeta": {
+      "display": {
+        "displayName": "Home prompt",
+        "purpose": "Home heading at desktop and wider tablet sizes."
+      },
+      "display-mobile": {
+        "displayName": "Mobile home prompt",
+        "purpose": "Home heading at 600px and below; 34px at 360px and below."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Default text; mobile body uses the separate 14px role."
+      }
+    },
+    "shadows": [
+      {
+        "name": "root-shadow",
+        "value": "0 12px 44px #3c3a2510",
+        "purpose": "Declared global shadow variable; components use their own specific shadows."
+      },
+      {
+        "name": "composer-rest",
+        "value": "0 6px 30px #3c3a2505",
+        "purpose": "Faint composer depth."
+      },
+      {
+        "name": "composer-focus",
+        "value": "0 5px 25px #103f3209",
+        "purpose": "Focused composer."
+      },
+      {
+        "name": "dialog",
+        "value": "0 20px 80px #12221925",
+        "purpose": "Modal separation."
+      }
+    ],
+    "motion": [
+      {
+        "name": "hover",
+        "value": "background .18s, color .18s",
+        "purpose": "Button feedback."
+      },
+      {
+        "name": "drawer",
+        "value": ".22s ease-out",
+        "purpose": "Drawer entry."
+      },
+      {
+        "name": "toast",
+        "value": ".2s ease-out",
+        "purpose": "Toast entry."
+      },
+      {
+        "name": "mascot",
+        "value": "1.4s ease-out",
+        "purpose": "One of three startup character animations."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation:none; transition:none; scroll-behavior:auto",
+        "purpose": "Applied under prefers-reduced-motion:reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact",
+        "value": "max-width:360px"
+      },
+      {
+        "name": "mobile",
+        "value": "max-width:600px"
+      },
+      {
+        "name": "wide-header",
+        "value": "min-width:1000px"
+      }
+    ],
+    "layout": {
+      "mainMax": "620px",
+      "homeMax": "700px",
+      "masterMax": "700px",
+      "phoneMax": "490px",
+      "masterEntryMax": "460px",
+      "headerMax": "1160px"
+    },
+    "assets": {
+      "mascot": "/assets/lynx.webp",
+      "provenance": "public/assets/PROVENANCE.md",
+      "icons": "Lucide",
+      "font": "Self-hosted @fontsource/rubik, Hebrew/Latin/Cyrillic"
+    }
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Full-width forest action.",
+      "html": "<button class=\"ds-primary\">Continue</button>",
+      "css": ".ds-primary{font-family:Rubik,sans-serif;font-size:14px;line-height:1.4;background:var(--green,#103f32);color:var(--cream,#fff9ed);border:0;border-radius:12px;padding:13px 18px;min-height:51px;width:100%;font-weight:500;cursor:pointer;transition:background .18s}.ds-primary:hover{background:var(--green-hover,#1e5642)}.ds-primary:focus-visible{outline:3px solid #ed9a4c;outline-offset:4px}"
+    },
+    {
+      "name": "Secondary action",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Outlined secondary action.",
+      "html": "<button class=\"ds-secondary\">Back</button>",
+      "css": ".ds-secondary{font-family:Rubik,sans-serif;font-size:14px;line-height:1.4;color:var(--green,#103f32);background:transparent;border:1px solid var(--green,#103f32);border-radius:12px;padding:13px 18px;min-height:51px;width:100%;cursor:pointer;transition:background .18s}.ds-secondary:hover{background:var(--sage,#e9eedc)}.ds-secondary:focus-visible{outline:3px solid #ed9a4c;outline-offset:4px}"
+    },
+    {
+      "name": "Text field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Paper field for request details.",
+      "html": "<input class=\"ds-field\" aria-label=\"Street\" placeholder=\"Street\"/>",
+      "css": ".ds-field{font-family:Rubik,sans-serif;font-size:14px;line-height:1.4;color:var(--ink,#23372e);background:var(--paper,#fffdf7);border:1px solid var(--line,#e6dfcf);border-radius:12px;padding:13px 14px;min-height:48px}.ds-field:hover{border-color:#d8d6c4}.ds-field:focus-visible{outline:3px solid #ed9a4c;outline-offset:4px}"
+    },
+    {
+      "name": "Language navigation",
+      "kind": "nav",
+      "description": "Compact language switch; LTR in every locale.",
+      "html": "<nav class=\"ds-languages\" aria-label=\"Language\"><button>HE</button><button aria-pressed=\"true\">EN</button><button>RU</button></nav>",
+      "css": ".ds-languages{display:inline-flex;direction:ltr;gap:3px;padding:3px;border:1px solid var(--line,#e6dfcf);border-radius:10px}.ds-languages button{font-family:Rubik,sans-serif;font-size:14px;line-height:1.4;font-size:11px;font-weight:600;padding:0 10px;min-height:32px;border:0;border-radius:7px;color:var(--muted,#716d60);background:none;cursor:pointer}.ds-languages button[aria-pressed=true]{background:var(--green,#103f32);color:var(--cream,#fff9ed)}.ds-languages button:hover:not([aria-pressed=true]){background:var(--sage,#e9eedc)}.ds-languages button:focus-visible{outline:3px solid #ed9a4c;outline-offset:4px}"
+    },
+    {
+      "name": "Request filter",
+      "kind": "chip",
+      "description": "Outlined filter with a forest selected state.",
+      "html": "<button class=\"ds-filter\" aria-pressed=\"false\">All requests</button>",
+      "css": ".ds-filter{font-family:Rubik,sans-serif;font-size:14px;line-height:1.4;font-size:12px;border:1px solid var(--line,#e6dfcf);background:none;color:var(--ink,#23372e);border-radius:9px;padding:7px 15px;min-height:36px;cursor:pointer}.ds-filter:hover{background:var(--sage,#e9eedc)}.ds-filter[aria-pressed=true]{background:var(--green,#103f32);color:var(--cream,#fff9ed);border-color:var(--green,#103f32)}.ds-filter:focus-visible{outline:3px solid #ed9a4c;outline-offset:4px}"
+    },
+    {
+      "name": "Detail paper",
+      "kind": "card",
+      "refersTo": "detail-panel",
+      "description": "Quiet bordered request detail container.",
+      "html": "<div class=\"ds-paper\"><div><strong>Address</strong><p>Haifa · Herzl 12</p></div></div>",
+      "css": ".ds-paper{font-family:Rubik,sans-serif;font-size:14px;line-height:1.4;background:var(--paper,#fffdf7);color:var(--ink,#23372e);border:1px solid var(--line,#e6dfcf);border-radius:16px;padding:4px 20px}.ds-paper>div{padding:19px 0}.ds-paper strong{font-size:14px;font-weight:600;color:var(--green,#103f32)}.ds-paper p{font-size:14px;line-height:1.7;margin:6px 0 0}"
+    }
+  ],
+  "narrative": {
+    "overview": "The user-supplied LAPA app reference is the visual authority. Warm cream surrounds a hand-inked adult lynx in a forest hoodie; dark green typography, a compact italic wordmark, an orange paw, and double chevrons carry the identity. The character feels capable and relaxed, with an editorial illustration style rather than a toy-like finish.\n\nControls are quiet and legible, with fine borders, restrained tonal fills, and generous space. The same visual language supports Hebrew, English, and Russian. Screen composition and prototype behavior are documented in `.impeccable/surfaces/app.md`.",
+    "keyCharacteristics": [
+      "Cream canvas and paper-colored fields.",
+      "Forest green actions with small orange brand details.",
+      "A single illustrated lynx character.",
+      "Rubik across Hebrew, Latin, and Cyrillic.",
+      "Rounded controls and divided request rows."
+    ],
+    "rules": [],
+    "dos": [
+      "**Do** preserve the cream, forest, and illustrated lynx identity from the reference.",
+      "**Do** use Rubik and logical layout properties for all three supported scripts.",
+      "**Do** pair urgency and request states with readable labels.",
+      "**Do** keep request lists orderly and controls visibly focusable."
+    ],
+    "donts": [
+      "**Don't** introduce additional figurative brand characters.",
+      "**Don't** use decorative marketing grids inside this application.",
+      "**Don't** replace quiet outlines and tonal surfaces with heavy shadows."
+    ]
+  }
+}

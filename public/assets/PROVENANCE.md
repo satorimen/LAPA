@@ -1,0 +1,9 @@
+# LAPA mascot provenance
+
+Generated with the session image generation tool on 2026-10-31. User-provided app reference informed the brand direction. No stock images.
+
+Original prompt: Create a polished brand mascot illustration for LAPA handyman app, based on relaxed anthropomorphic Eurasian lynx in dark forest green hoodie. One single character centered on solid warm ivory #fff9ed background, waist-up seated at a desk resting one cheek casually on a paw, elbow on table, smiling with half-closed eyes, competent friendly adult urban character, tufted ears black ear tips, tawny orange tan fur black spots, fluffy cream muzzle, expressive eyes. Three-quarter view facing slightly right. Beautiful hand-inked editorial cartoon character with clean dark outlines, subtle textured shading and warm muted colors, professional European graphic novel quality, not childish, not 3D. A tiny simple orange double-chevron mark on hoodie chest. Composition bottom aligned, full ears visible, lots of clear ivory around head, no text, no letters, no typography, no border. Landscape 3:2 illustration, suitable for web hero header.
+
+Transparent cutout edit prompt: Edit this exact LAPA lynx illustration into a clean transparent-background cutout for a mobile app. Preserve the exact illustrated character, facial expression, warm tan fur, dark green hoodie and orange double chevron. Remove ALL cream background and remove the entire wooden table. Keep both forearms and paws resting along the bottom, natural complete contour and all ears uncut. Character alone, all negative space truly transparent, no text, no shadows behind character. Same beautiful professional hand-inked illustration.
+
+PWA icons are original geometric paw/wordmark artwork rendered to PNG with Sharp. Interface icons: Lucide, ISC license. Self-hosted font: Rubik, SIL Open Font License, installed through @fontsource/rubik.
