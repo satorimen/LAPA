@@ -28,3 +28,20 @@ The Impeccable context/detection binary was not available; design context was re
 - All 6 browser scenarios passed against a plain static HTTP server at `/LAPA/`, including first-load offline reload, assets, and the complete local request lifecycle.
 - Source and Pages workflow pushed to `satorimen/LAPA`, branch `main`.
 - Live GitHub Pages deployment not verified: GitHub API access is blocked by the current network policy. Repository Settings → Pages → Source must be set to GitHub Actions to enable the saved workflow.
+
+## Redesign validation — 2026-11-01
+
+User's new 3D lynx + charcoal/white/lime mobile app references replace the old visual authority.
+
+- Static GitHub Pages export and TypeScript: passed after final code changes.
+- Unit suite: 5 passed, 0 failed.
+- Full browser suite after redesign: 11 passed, 0 failed (six workflow/offline tests, five usability tests).
+- After the mobile hero layout correction: five usability tests rerun and passed at 320/390/768/1440px, RTL and 200% text.
+- After review's calendar accessibility correction: focused master/keyboard/calendar test rerun and passed; full date accessible labels, selected state and changing date verified.
+- Actual Chromium captures inspected at 320/390/768/1440px, Hebrew RTL, chat, preview, received, master and calendar. No JavaScript page errors, no horizontal overflow.
+- Calendar capture was repeated in a clean browser after a multi-flow capture omitted the sticky header. Final screenshot and DOM bounds confirm the header visible at x=0,y=0,width=390,height=82 with scrollY=0.
+- Contrast ratios: body 14.79:1, secondary 5.17:1, hero copy 6.99:1, primary 16.99:1, lime action 13.21:1.
+- Native-alpha mascot master compressed to an ~80KB WebP. Updated PWA colors/icons and app-scoped cache version; retained IndexedDB data.
+- Independent finish reviewer disposition: ship, calendar correction and capture resolved.
+
+No physical-device, real assistive-technology, or live GitHub Pages deployment verification was performed in this pass. Local-prototype backend/AI/auth/push limitations remain unchanged. Impeccable launcher and automatic detector were unavailable; review used direct source and browser captures.

@@ -1,250 +1,317 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-31T20:41:00.640229+00:00",
+  "generatedAt": "2026-11-01T11:54:28.183668+00:00",
   "title": "Design System: LAPA",
   "extensions": {
-    "source": "src/app/globals.css; primitives are normative in DESIGN.md frontmatter",
+    "source": "src/app/globals.css and src/components; DESIGN.md frontmatter owns normative primitives",
     "colorMeta": {
-      "cream": {
+      "canvas": {
         "role": "neutral",
-        "displayName": "Warm cream",
-        "canonical": "#fff9ed",
+        "displayName": "Pale green-gray canvas",
+        "canonical": "#f2f4ed",
         "tonalRamp": [
-          "oklch(15% 0.0171 84.59)",
-          "oklch(26% 0.0171 84.59)",
-          "oklch(38% 0.0171 84.59)",
-          "oklch(49% 0.0171 84.59)",
-          "oklch(61% 0.0171 84.59)",
-          "oklch(72% 0.0171 84.59)",
-          "oklch(84% 0.0171 84.59)",
-          "oklch(95% 0.0171 84.59)"
+          "oklch(15% 0.0095 119.58)",
+          "oklch(26% 0.0095 119.58)",
+          "oklch(38% 0.0095 119.58)",
+          "oklch(49% 0.0095 119.58)",
+          "oklch(61% 0.0095 119.58)",
+          "oklch(72% 0.0095 119.58)",
+          "oklch(84% 0.0095 119.58)",
+          "oklch(95% 0.0095 119.58)"
         ]
       },
       "paper": {
         "role": "neutral",
-        "displayName": "Paper",
-        "canonical": "#fffdf7",
+        "displayName": "White working paper",
+        "canonical": "#ffffff",
         "tonalRamp": [
-          "oklch(15% 0.0082 91.48)",
-          "oklch(26% 0.0082 91.48)",
-          "oklch(38% 0.0082 91.48)",
-          "oklch(49% 0.0082 91.48)",
-          "oklch(61% 0.0082 91.48)",
-          "oklch(72% 0.0082 91.48)",
-          "oklch(84% 0.0082 91.48)",
-          "oklch(95% 0.0082 91.48)"
+          "oklch(15% 0.0000 89.88)",
+          "oklch(26% 0.0000 89.88)",
+          "oklch(38% 0.0000 89.88)",
+          "oklch(49% 0.0000 89.88)",
+          "oklch(61% 0.0000 89.88)",
+          "oklch(72% 0.0000 89.88)",
+          "oklch(84% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
         ]
       },
-      "forest": {
+      "charcoal": {
         "role": "primary",
-        "displayName": "Forest",
-        "canonical": "#103f32",
+        "displayName": "Charcoal",
+        "canonical": "#171e19",
         "tonalRamp": [
-          "oklch(15% 0.0554 170.98)",
-          "oklch(26% 0.0554 170.98)",
-          "oklch(38% 0.0554 170.98)",
-          "oklch(49% 0.0554 170.98)",
-          "oklch(61% 0.0554 170.98)",
-          "oklch(72% 0.0554 170.98)",
-          "oklch(84% 0.0554 170.98)",
-          "oklch(95% 0.0554 170.98)"
+          "oklch(15% 0.0141 154.08)",
+          "oklch(26% 0.0141 154.08)",
+          "oklch(38% 0.0141 154.08)",
+          "oklch(49% 0.0141 154.08)",
+          "oklch(61% 0.0141 154.08)",
+          "oklch(72% 0.0141 154.08)",
+          "oklch(84% 0.0141 154.08)",
+          "oklch(95% 0.0141 154.08)"
         ]
       },
-      "forest-hover": {
+      "charcoal-hover": {
         "role": "primary",
-        "displayName": "Forest hover",
-        "canonical": "#1e5642",
+        "displayName": "Charcoal hover",
+        "canonical": "#303a30",
         "tonalRamp": [
-          "oklch(15% 0.0680 166.33)",
-          "oklch(26% 0.0680 166.33)",
-          "oklch(38% 0.0680 166.33)",
-          "oklch(49% 0.0680 166.33)",
-          "oklch(61% 0.0680 166.33)",
-          "oklch(72% 0.0680 166.33)",
-          "oklch(84% 0.0680 166.33)",
-          "oklch(95% 0.0680 166.33)"
+          "oklch(15% 0.0219 145.07)",
+          "oklch(26% 0.0219 145.07)",
+          "oklch(38% 0.0219 145.07)",
+          "oklch(49% 0.0219 145.07)",
+          "oklch(61% 0.0219 145.07)",
+          "oklch(72% 0.0219 145.07)",
+          "oklch(84% 0.0219 145.07)",
+          "oklch(95% 0.0219 145.07)"
         ]
       },
       "sage": {
         "role": "secondary",
-        "displayName": "Sage",
-        "canonical": "#e9eedc",
+        "displayName": "Soft sage",
+        "canonical": "#e2f0d6",
         "tonalRamp": [
-          "oklch(15% 0.0244 119.51)",
-          "oklch(26% 0.0244 119.51)",
-          "oklch(38% 0.0244 119.51)",
-          "oklch(49% 0.0244 119.51)",
-          "oklch(61% 0.0244 119.51)",
-          "oklch(72% 0.0244 119.51)",
-          "oklch(84% 0.0244 119.51)",
-          "oklch(95% 0.0244 119.51)"
+          "oklch(15% 0.0375 130.39)",
+          "oklch(26% 0.0375 130.39)",
+          "oklch(38% 0.0375 130.39)",
+          "oklch(49% 0.0375 130.39)",
+          "oklch(61% 0.0375 130.39)",
+          "oklch(72% 0.0375 130.39)",
+          "oklch(84% 0.0375 130.39)",
+          "oklch(95% 0.0375 130.39)"
         ]
       },
-      "orange": {
-        "role": "secondary",
-        "displayName": "Orange",
-        "canonical": "#ee7e25",
+      "lime": {
+        "role": "primary",
+        "displayName": "Action lime",
+        "canonical": "#c2f36b",
         "tonalRamp": [
-          "oklch(15% 0.1660 53.00)",
-          "oklch(26% 0.1660 53.00)",
-          "oklch(38% 0.1660 53.00)",
-          "oklch(49% 0.1660 53.00)",
-          "oklch(61% 0.1660 53.00)",
-          "oklch(72% 0.1660 53.00)",
-          "oklch(84% 0.1660 53.00)",
-          "oklch(95% 0.1660 53.00)"
+          "oklch(15% 0.1722 126.21)",
+          "oklch(26% 0.1722 126.21)",
+          "oklch(38% 0.1722 126.21)",
+          "oklch(49% 0.1722 126.21)",
+          "oklch(61% 0.1722 126.21)",
+          "oklch(72% 0.1722 126.21)",
+          "oklch(84% 0.1722 126.21)",
+          "oklch(95% 0.1722 126.21)"
+        ]
+      },
+      "hero": {
+        "role": "secondary",
+        "displayName": "Fresh green hero",
+        "canonical": "#b5da91",
+        "tonalRamp": [
+          "oklch(15% 0.1046 130.22)",
+          "oklch(26% 0.1046 130.22)",
+          "oklch(38% 0.1046 130.22)",
+          "oklch(49% 0.1046 130.22)",
+          "oklch(61% 0.1046 130.22)",
+          "oklch(72% 0.1046 130.22)",
+          "oklch(84% 0.1046 130.22)",
+          "oklch(95% 0.1046 130.22)"
         ]
       },
       "ink": {
         "role": "neutral",
-        "displayName": "Ink",
-        "canonical": "#23372e",
+        "displayName": "Near-black ink",
+        "canonical": "#1b211c",
         "tonalRamp": [
-          "oklch(15% 0.0305 164.79)",
-          "oklch(26% 0.0305 164.79)",
-          "oklch(38% 0.0305 164.79)",
-          "oklch(49% 0.0305 164.79)",
-          "oklch(61% 0.0305 164.79)",
-          "oklch(72% 0.0305 164.79)",
-          "oklch(84% 0.0305 164.79)",
-          "oklch(95% 0.0305 164.79)"
+          "oklch(15% 0.0129 150.06)",
+          "oklch(26% 0.0129 150.06)",
+          "oklch(38% 0.0129 150.06)",
+          "oklch(49% 0.0129 150.06)",
+          "oklch(61% 0.0129 150.06)",
+          "oklch(72% 0.0129 150.06)",
+          "oklch(84% 0.0129 150.06)",
+          "oklch(95% 0.0129 150.06)"
         ]
       },
       "muted": {
         "role": "neutral",
-        "displayName": "Muted",
-        "canonical": "#716d60",
+        "displayName": "Secondary green-gray",
+        "canonical": "#5f695d",
         "tonalRamp": [
-          "oklch(15% 0.0203 92.83)",
-          "oklch(26% 0.0203 92.83)",
-          "oklch(38% 0.0203 92.83)",
-          "oklch(49% 0.0203 92.83)",
-          "oklch(61% 0.0203 92.83)",
-          "oklch(72% 0.0203 92.83)",
-          "oklch(84% 0.0203 92.83)",
-          "oklch(95% 0.0203 92.83)"
+          "oklch(15% 0.0223 140.46)",
+          "oklch(26% 0.0223 140.46)",
+          "oklch(38% 0.0223 140.46)",
+          "oklch(49% 0.0223 140.46)",
+          "oklch(61% 0.0223 140.46)",
+          "oklch(72% 0.0223 140.46)",
+          "oklch(84% 0.0223 140.46)",
+          "oklch(95% 0.0223 140.46)"
         ]
       },
       "line": {
         "role": "neutral",
-        "displayName": "Warm rule",
-        "canonical": "#e6dfcf",
+        "displayName": "Quiet divider",
+        "canonical": "#dbe1d5",
         "tonalRamp": [
-          "oklch(15% 0.0227 87.16)",
-          "oklch(26% 0.0227 87.16)",
-          "oklch(38% 0.0227 87.16)",
-          "oklch(49% 0.0227 87.16)",
-          "oklch(61% 0.0227 87.16)",
-          "oklch(72% 0.0227 87.16)",
-          "oklch(84% 0.0227 87.16)",
-          "oklch(95% 0.0227 87.16)"
+          "oklch(15% 0.0173 128.68)",
+          "oklch(26% 0.0173 128.68)",
+          "oklch(38% 0.0173 128.68)",
+          "oklch(49% 0.0173 128.68)",
+          "oklch(61% 0.0173 128.68)",
+          "oklch(72% 0.0173 128.68)",
+          "oklch(84% 0.0173 128.68)",
+          "oklch(95% 0.0173 128.68)"
         ]
       },
       "urgent": {
         "role": "semantic",
-        "displayName": "Urgent",
-        "canonical": "#ba3e25",
+        "displayName": "Urgent red",
+        "canonical": "#ad3525",
         "tonalRamp": [
-          "oklch(15% 0.1644 33.27)",
-          "oklch(26% 0.1644 33.27)",
-          "oklch(38% 0.1644 33.27)",
-          "oklch(49% 0.1644 33.27)",
-          "oklch(61% 0.1644 33.27)",
-          "oklch(72% 0.1644 33.27)",
-          "oklch(84% 0.1644 33.27)",
-          "oklch(95% 0.1644 33.27)"
+          "oklch(15% 0.1589 30.77)",
+          "oklch(26% 0.1589 30.77)",
+          "oklch(38% 0.1589 30.77)",
+          "oklch(49% 0.1589 30.77)",
+          "oklch(61% 0.1589 30.77)",
+          "oklch(72% 0.1589 30.77)",
+          "oklch(84% 0.1589 30.77)",
+          "oklch(95% 0.1589 30.77)"
+        ]
+      },
+      "field": {
+        "role": "neutral",
+        "displayName": "Pale field",
+        "canonical": "#f7f9f3",
+        "tonalRamp": [
+          "oklch(15% 0.0082 121.63)",
+          "oklch(26% 0.0082 121.63)",
+          "oklch(38% 0.0082 121.63)",
+          "oklch(49% 0.0082 121.63)",
+          "oklch(61% 0.0082 121.63)",
+          "oklch(72% 0.0082 121.63)",
+          "oklch(84% 0.0082 121.63)",
+          "oklch(95% 0.0082 121.63)"
+        ]
+      },
+      "focus": {
+        "role": "semantic",
+        "displayName": "Focus green",
+        "canonical": "#477e25",
+        "tonalRamp": [
+          "oklch(15% 0.1341 135.79)",
+          "oklch(26% 0.1341 135.79)",
+          "oklch(38% 0.1341 135.79)",
+          "oklch(49% 0.1341 135.79)",
+          "oklch(61% 0.1341 135.79)",
+          "oklch(72% 0.1341 135.79)",
+          "oklch(84% 0.1341 135.79)",
+          "oklch(95% 0.1341 135.79)"
         ]
       }
     },
-    "tonalRampNote": "Tonal ramps are generated display aids in OKLCH, not implemented application tokens. Canonical values match globals.css.",
+    "tonalRampNote": "Generated OKLCH strips are display aids, not implemented theme tokens. Canonical values match globals.css.",
+    "cssTokenMap": {
+      "canvas": "--cream",
+      "paper": "--paper",
+      "charcoal": "--green",
+      "charcoal-hover": "--green-hover",
+      "sage": "--sage",
+      "lime": "--lime (also --orange)",
+      "hero": "--leaf",
+      "ink": "--ink",
+      "muted": "--muted",
+      "line": "--line",
+      "urgent": "--red",
+      "field": "literal field background",
+      "focus": "literal focus outline"
+    },
     "typographyMeta": {
       "display": {
-        "displayName": "Home prompt",
-        "purpose": "Home heading at desktop and wider tablet sizes."
+        "displayName": "Desktop home prompt",
+        "purpose": "Large, balanced home headline."
       },
       "display-mobile": {
         "displayName": "Mobile home prompt",
-        "purpose": "Home heading at 600px and below; 34px at 360px and below."
+        "purpose": "2rem to 2.5rem; tablet uses 2.625rem."
       },
       "body": {
-        "displayName": "Body",
-        "purpose": "Default text; mobile body uses the separate 14px role."
+        "displayName": "Body and form text",
+        "purpose": "1rem root body and minimum form-value size; supporting text uses smaller rem roles."
       }
     },
     "shadows": [
       {
-        "name": "root-shadow",
-        "value": "0 12px 44px #3c3a2510",
-        "purpose": "Declared global shadow variable; components use their own specific shadows."
+        "name": "composer",
+        "value": "0 10px 36px #1a291108",
+        "purpose": "Faint depth beneath the writing surface."
       },
       {
-        "name": "composer-rest",
-        "value": "0 6px 30px #3c3a2505",
-        "purpose": "Faint composer depth."
-      },
-      {
-        "name": "composer-focus",
-        "value": "0 5px 25px #103f3209",
-        "purpose": "Focused composer."
+        "name": "master-navigation",
+        "value": "0 10px 32px #14251426",
+        "purpose": "Separate fixed master navigation from scrolling content."
       },
       {
         "name": "dialog",
-        "value": "0 20px 80px #12221925",
+        "value": "0 24px 80px #12221925",
         "purpose": "Modal separation."
       }
     ],
     "motion": [
       {
-        "name": "hover",
-        "value": "background .18s, color .18s",
-        "purpose": "Button feedback."
+        "name": "mascot-greeting",
+        "value": "1.3s ease-out",
+        "purpose": "One of three brief startup greetings."
       },
       {
-        "name": "drawer",
-        "value": ".22s ease-out",
-        "purpose": "Drawer entry."
+        "name": "paw-loader",
+        "value": ".9s ease-out infinite",
+        "purpose": "Local loading feedback."
       },
       {
-        "name": "toast",
-        "value": ".2s ease-out",
-        "purpose": "Toast entry."
-      },
-      {
-        "name": "mascot",
-        "value": "1.4s ease-out",
-        "purpose": "One of three startup character animations."
+        "name": "toggle",
+        "value": "transform .15s",
+        "purpose": "Preference switch thumb."
       },
       {
         "name": "reduced-motion",
-        "value": "animation:none; transition:none; scroll-behavior:auto",
+        "value": "animation:none;transition:none;scroll-behavior:auto",
         "purpose": "Applied under prefers-reduced-motion:reduce."
       }
     ],
     "breakpoints": [
       {
-        "name": "compact",
-        "value": "max-width:360px"
+        "name": "stacked-home",
+        "value": "max-width:900px"
       },
       {
         "name": "mobile",
         "value": "max-width:600px"
       },
       {
-        "name": "wide-header",
-        "value": "min-width:1000px"
+        "name": "compact",
+        "value": "max-width:380px"
+      },
+      {
+        "name": "short-screen",
+        "value": "max-height:700px and max-width:900px"
       }
     ],
     "layout": {
-      "mainMax": "620px",
-      "homeMax": "700px",
-      "masterMax": "700px",
-      "phoneMax": "490px",
-      "masterEntryMax": "460px",
-      "headerMax": "1160px"
+      "mainMax": "740px",
+      "homeMax": "1200px",
+      "stackedHomeMax": "700px",
+      "masterMax": "920px",
+      "chatMax": "800px",
+      "entryMax": "536px",
+      "headerMax": "1240px",
+      "masterBottomClearance": "calc(112px + env(safe-area-inset-bottom))",
+      "minimumTarget": "44px",
+      "primaryMinimumHeight": "56px"
+    },
+    "contrast": {
+      "whiteOnCharcoal": 16.99,
+      "inkOnCanvas": 14.79,
+      "mutedOnCanvas": 5.17,
+      "heroSupportingTextOnGreen": 6.99,
+      "charcoalOnLime": 13.21
     },
     "assets": {
       "mascot": "/assets/lynx.webp",
+      "nativeAlphaMaster": "public/assets/lynx.png",
       "provenance": "public/assets/PROVENANCE.md",
+      "character": "Premium soft 3D golden/cream lynx, no clothing, dark ear tufts, greeting paw.",
       "icons": "Lucide",
       "font": "Self-hosted @fontsource/rubik, Hebrew/Latin/Cyrillic"
     }
@@ -253,70 +320,96 @@
     {
       "name": "Primary action",
       "kind": "button",
-      "refersTo": "button-primary",
-      "description": "Full-width forest action.",
+      "description": "Charcoal action for ordinary form steps.",
       "html": "<button class=\"ds-primary\">Continue</button>",
-      "css": ".ds-primary{font-family:Rubik,sans-serif;font-size:14px;line-height:1.4;background:var(--green,#103f32);color:var(--cream,#fff9ed);border:0;border-radius:12px;padding:13px 18px;min-height:51px;width:100%;font-weight:500;cursor:pointer;transition:background .18s}.ds-primary:hover{background:var(--green-hover,#1e5642)}.ds-primary:focus-visible{outline:3px solid #ed9a4c;outline-offset:4px}"
+      "css": ".ds-primary{font-family:Rubik,sans-serif;font-size:1rem;font-weight:500;line-height:1.5;min-height:56px;width:100%;border-radius:16px;padding:15px 20px;cursor:pointer;border:0;background:var(--green,#171e19);color:var(--paper,#ffffff)}.ds-primary:hover{background:var(--green-hover,#303a30)}.ds-primary:focus-visible{outline:3px solid var(--focus,#477e25);outline-offset:4px}.ds-primary:active{background:var(--green-hover,#303a30)}",
+      "refersTo": "button-primary"
+    },
+    {
+      "name": "Intake next action",
+      "kind": "button",
+      "description": "Lime next action in the home composer.",
+      "html": "<button class=\"ds-next\">Next <svg viewBox=\"0 0 24 24\" width=\"21\" height=\"21\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-next{font-family:Rubik,sans-serif;font-size:1rem;font-weight:500;line-height:1.5;min-height:56px;width:100%;border-radius:16px;padding:15px 20px;cursor:pointer;display:flex;align-items:center;justify-content:space-between;border:0;padding-inline:22px;background:var(--lime,#c2f36b);color:var(--green,#171e19)}.ds-next:hover{background:#b1e557}.ds-next:focus-visible{outline:3px solid var(--focus,#477e25);outline-offset:4px}.ds-next:active{background:#b1e557}.ds-next:disabled{background:#e8eddf;color:#67705f;cursor:default}",
+      "refersTo": "button-next"
     },
     {
       "name": "Secondary action",
       "kind": "button",
-      "refersTo": "button-secondary",
-      "description": "Outlined secondary action.",
+      "description": "White outlined alternative action.",
       "html": "<button class=\"ds-secondary\">Back</button>",
-      "css": ".ds-secondary{font-family:Rubik,sans-serif;font-size:14px;line-height:1.4;color:var(--green,#103f32);background:transparent;border:1px solid var(--green,#103f32);border-radius:12px;padding:13px 18px;min-height:51px;width:100%;cursor:pointer;transition:background .18s}.ds-secondary:hover{background:var(--sage,#e9eedc)}.ds-secondary:focus-visible{outline:3px solid #ed9a4c;outline-offset:4px}"
+      "css": ".ds-secondary{font-family:Rubik,sans-serif;font-size:1rem;font-weight:500;line-height:1.5;min-height:56px;width:100%;border-radius:16px;padding:15px 20px;cursor:pointer;border:1px solid #c4cebc;background:var(--paper,#ffffff);color:var(--green,#171e19)}.ds-secondary:hover{background:var(--sage,#e2f0d6)}.ds-secondary:focus-visible{outline:3px solid var(--focus,#477e25);outline-offset:4px}.ds-secondary:active{background:var(--sage,#e2f0d6)}",
+      "refersTo": "button-secondary"
     },
     {
       "name": "Text field",
       "kind": "input",
-      "refersTo": "field",
-      "description": "Paper field for request details.",
-      "html": "<input class=\"ds-field\" aria-label=\"Street\" placeholder=\"Street\"/>",
-      "css": ".ds-field{font-family:Rubik,sans-serif;font-size:14px;line-height:1.4;color:var(--ink,#23372e);background:var(--paper,#fffdf7);border:1px solid var(--line,#e6dfcf);border-radius:12px;padding:13px 14px;min-height:48px}.ds-field:hover{border-color:#d8d6c4}.ds-field:focus-visible{outline:3px solid #ed9a4c;outline-offset:4px}"
+      "description": "Pale form field with readable mobile text.",
+      "html": "<label class=\"ds-field-label\">Street<input class=\"ds-field\" placeholder=\"Street name\"/></label>",
+      "css": ".ds-field-label{font-family:Rubik,sans-serif;display:flex;flex-direction:column;gap:9px;font-size:.875rem;font-weight:500;color:#475441}.ds-field{font-family:Rubik,sans-serif;font-size:1rem;line-height:1.6;min-height:54px;padding:15px 16px;border:1px solid #cbd4c4;border-radius:14px;background:#f7f9f3;color:var(--ink,#1b211c)}.ds-field:hover{border-color:#558039}.ds-field:focus{border-color:#558039}.ds-field:focus-visible{outline:3px solid var(--focus,#477e25);outline-offset:4px}.ds-field::placeholder{color:#667060;opacity:1}",
+      "refersTo": "field"
     },
     {
       "name": "Language navigation",
       "kind": "nav",
-      "description": "Compact language switch; LTR in every locale.",
-      "html": "<nav class=\"ds-languages\" aria-label=\"Language\"><button>HE</button><button aria-pressed=\"true\">EN</button><button>RU</button></nav>",
-      "css": ".ds-languages{display:inline-flex;direction:ltr;gap:3px;padding:3px;border:1px solid var(--line,#e6dfcf);border-radius:10px}.ds-languages button{font-family:Rubik,sans-serif;font-size:14px;line-height:1.4;font-size:11px;font-weight:600;padding:0 10px;min-height:32px;border:0;border-radius:7px;color:var(--muted,#716d60);background:none;cursor:pointer}.ds-languages button[aria-pressed=true]{background:var(--green,#103f32);color:var(--cream,#fff9ed)}.ds-languages button:hover:not([aria-pressed=true]){background:var(--sage,#e9eedc)}.ds-languages button:focus-visible{outline:3px solid #ed9a4c;outline-offset:4px}"
+      "description": "Charcoal header language group; stays LTR in each locale.",
+      "html": "<nav class=\"ds-language\" aria-label=\"Language\"><button>HE</button><button aria-pressed=\"true\">EN</button><button>RU</button></nav>",
+      "css": ".ds-language{display:inline-flex;gap:2px;padding:3px;border:1px solid #4c564b;border-radius:16px;background:var(--green,#171e19);direction:ltr}.ds-language button{font-family:Rubik,sans-serif;font-size:.75rem;font-weight:600;min-width:44px;min-height:44px;border:0;border-radius:12px;padding:0 8px;color:#eef4e9;background:transparent;cursor:pointer}.ds-language button[aria-pressed=true]{background:var(--lime,#c2f36b);color:var(--ink,#1b211c)}.ds-language button:hover:not([aria-pressed=true]){background:#394333}.ds-language button:focus-visible{outline:3px solid var(--lime,#c2f36b);outline-offset:4px}"
     },
     {
       "name": "Request filter",
       "kind": "chip",
-      "description": "Outlined filter with a forest selected state.",
-      "html": "<button class=\"ds-filter\" aria-pressed=\"false\">All requests</button>",
-      "css": ".ds-filter{font-family:Rubik,sans-serif;font-size:14px;line-height:1.4;font-size:12px;border:1px solid var(--line,#e6dfcf);background:none;color:var(--ink,#23372e);border-radius:9px;padding:7px 15px;min-height:36px;cursor:pointer}.ds-filter:hover{background:var(--sage,#e9eedc)}.ds-filter[aria-pressed=true]{background:var(--green,#103f32);color:var(--cream,#fff9ed);border-color:var(--green,#103f32)}.ds-filter:focus-visible{outline:3px solid #ed9a4c;outline-offset:4px}"
+      "description": "Touch-sized filter with a strong selected state.",
+      "html": "<button class=\"ds-filter\" aria-pressed=\"true\">All requests</button>",
+      "css": ".ds-filter{font-family:Rubik,sans-serif;font-size:.875rem;min-height:44px;padding:10px 16px;border:1px solid #cbd4c4;border-radius:14px;background:var(--paper,#ffffff);color:var(--ink,#1b211c);cursor:pointer}.ds-filter:hover{background:var(--sage,#e2f0d6)}.ds-filter[aria-pressed=true]{background:var(--green,#171e19);color:white;border-color:var(--green,#171e19)}.ds-filter:focus-visible{outline:3px solid var(--focus,#477e25);outline-offset:4px}"
     },
     {
-      "name": "Detail paper",
+      "name": "Detail panel",
       "kind": "card",
-      "refersTo": "detail-panel",
-      "description": "Quiet bordered request detail container.",
-      "html": "<div class=\"ds-paper\"><div><strong>Address</strong><p>Haifa · Herzl 12</p></div></div>",
-      "css": ".ds-paper{font-family:Rubik,sans-serif;font-size:14px;line-height:1.4;background:var(--paper,#fffdf7);color:var(--ink,#23372e);border:1px solid var(--line,#e6dfcf);border-radius:16px;padding:4px 20px}.ds-paper>div{padding:19px 0}.ds-paper strong{font-size:14px;font-weight:600;color:var(--green,#103f32)}.ds-paper p{font-size:14px;line-height:1.7;margin:6px 0 0}"
+      "description": "White rounded container with quiet divided content.",
+      "html": "<section class=\"ds-detail\"><div><strong>Problem</strong><p>Leaking kitchen tap</p></div><div><strong>Address</strong><p>Saved service address</p></div></section>",
+      "css": ".ds-detail{font-family:Rubik,sans-serif;border-radius:24px;padding:6px 24px;background:var(--paper,#ffffff);color:var(--ink,#1b211c)}.ds-detail>div{padding:23px 0;border-bottom:1px solid var(--line,#dbe1d5)}.ds-detail>div:last-child{border:0}.ds-detail strong{font-size:.875rem;font-weight:500}.ds-detail p{font-size:1rem;line-height:1.75;margin:7px 0 0;overflow-wrap:anywhere}",
+      "refersTo": "detail-panel"
     }
   ],
   "narrative": {
-    "overview": "The user-supplied LAPA app reference is the visual authority. Warm cream surrounds a hand-inked adult lynx in a forest hoodie; dark green typography, a compact italic wordmark, an orange paw, and double chevrons carry the identity. The character feels capable and relaxed, with an editorial illustration style rather than a toy-like finish.\n\nControls are quiet and legible, with fine borders, restrained tonal fills, and generous space. The same visual language supports Hebrew, English, and Russian. Screen composition and prototype behavior are documented in `.impeccable/surfaces/app.md`.",
+    "northStar": "A friendly workshop",
+    "overview": "The user's two redesign references define the current visual world: a premium, soft 3D golden and cream lynx, paired with charcoal app chrome, generous white working panels, large near-black typography, and fresh green/lime emphasis inspired by the supplied ToyCAD interface. The mascot brings warmth; clear labels and comfortable controls make the handyman workflow feel straightforward.\n\nThis direction replaces the earlier cream/forest, hand-inked hoodie illustration. Keep the character friendly and tactile, with full ear tufts and its greeting paw visible. Product tasks and local prototype limits remain in PRODUCT.md and `.impeccable/surfaces/app.md`.",
     "keyCharacteristics": [
-      "Cream canvas and paper-colored fields.",
-      "Forest green actions with small orange brand details.",
-      "A single illustrated lynx character.",
-      "Rubik across Hebrew, Latin, and Cyrillic.",
-      "Rounded controls and divided request rows."
+      "Charcoal navigation around white working surfaces on a pale green-gray canvas.",
+      "A fresh green hero and lime next/send actions.",
+      "One unclothed golden and cream 3D lynx with soft studio shading.",
+      "Rubik across Hebrew, Latin, and Cyrillic, with clear size and weight hierarchy.",
+      "Rounded panels, readable rows, and generous touch targets."
     ],
-    "rules": [],
+    "rules": [
+      {
+        "name": "The Readable Contrast Rule",
+        "body": "Keep text and state labels legible independently of color. Checked foreground/background pairs are white on charcoal (16.99:1), ink on canvas (14.79:1), muted on canvas (5.17:1), hero supporting text on green (6.99:1), and charcoal on lime (13.21:1). These checks describe the named pairs, not every possible token combination.",
+        "section": "colors"
+      },
+      {
+        "name": "The Clear Hierarchy Rule",
+        "body": "Give the task heading, editable content, and next action distinct size and spacing before adding decorative emphasis.",
+        "section": "typography"
+      },
+      {
+        "name": "The Comfortable Reach Rule",
+        "body": "Interactive targets are at least 44px, full-width primary actions at least 56px, and form text at least 16px. Treat these as minimums, allowing content and text scaling to increase height.",
+        "section": "layout"
+      }
+    ],
     "dos": [
-      "**Do** preserve the cream, forest, and illustrated lynx identity from the reference.",
-      "**Do** use Rubik and logical layout properties for all three supported scripts.",
-      "**Do** pair urgency and request states with readable labels.",
-      "**Do** keep request lists orderly and controls visibly focusable."
+      "**Do** preserve the new charcoal, white, green, lime, and soft 3D lynx direction.",
+      "**Do** use Rubik, logical layout properties, and correct direction for all three scripts.",
+      "**Do** keep targets at least 44px, full-width primary actions at least 56px, and fields at least 16px.",
+      "**Do** use labels, spacing, contrast, and visible focus to make actions easy to scan.",
+      "**Do** reserve safe-area and fixed-navigation space and respect reduced motion."
     ],
     "donts": [
-      "**Don't** introduce additional figurative brand characters.",
-      "**Don't** use decorative marketing grids inside this application.",
-      "**Don't** replace quiet outlines and tonal surfaces with heavy shadows."
+      "**Don't** restore the hand-inked hoodie mascot or the earlier cream/forest visual instructions.",
+      "**Don't** add ToyCAD catalog or toy-shopping mechanics to the handyman workflow.",
+      "**Don't** add extra figurative characters, heavy shadows on request rows, or decoration that competes with writing."
     ]
   }
 }

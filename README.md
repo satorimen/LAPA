@@ -86,3 +86,9 @@ The repository contains `.github/workflows/pages.yml` for the `main` branch. Set
 `npm run build:pages` exports `out/` with `/LAPA` as the default deployment prefix. `NEXT_PUBLIC_BASE_PATH` overrides the prefix. The manifest uses relative URLs; the worker derives its scope from its registration, and cache names are app-path-specific. Image paths and metadata share a compile-time deployment helper. The normal `npm run build` / `npm start` workflow remains a root-host Node deployment.
 
 Run browser checks against a static server mounted at `/LAPA/` with `PLAYWRIGHT_BASE_URL=http://127.0.0.1:4173/LAPA/ npm run test:e2e`.
+
+## Interface update — 2026-11-01
+
+The user-supplied 3D lynx and charcoal/white/lime mobile UI references replace the original hand-inked mascot direction. The app now uses a native-alpha 3D golden lynx, dark header, rounded white writing surfaces and a labelled 56px continue action. Standard touch controls are at least 44px, form text starts at 16px, and semantic text sizes use rem units. Phone/tablet layout stacks the hero and composer; desktop uses two columns. Hebrew mirrors logically. Master navigation reserves bottom space and safe-area insets. Calendar dates expose full localized accessible names and selected state.
+
+Responsive browser checks cover 320, 390, 768 and 1440px, RTL, and 200% text. Artifact paths and offline worker remain scoped to `/LAPA/`; existing IndexedDB data is retained. A waiting PWA worker offers an explicit Update action and saves the draft before reloading.

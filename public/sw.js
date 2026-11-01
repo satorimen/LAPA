@@ -1,7 +1,7 @@
 /* Public assets only. The worker is scoped to this app, never the whole github.io origin. */
 const ROOT=new URL('./',self.registration.scope);
 const path=name=>new URL(name,ROOT).href;
-const CACHE=`lapa-shell-${ROOT.pathname}-v3`;
+const CACHE=`lapa-shell-${ROOT.pathname}-v4`;
 const CORE=['','manifest.webmanifest','assets/lynx.webp','icons/icon-192.png','icons/icon-512.png'].map(path);
 self.addEventListener('install',event=>event.waitUntil((async()=>{
  const cache=await caches.open(CACHE);await cache.addAll(CORE);
